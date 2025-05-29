@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+python-jose[cryptography]
+passlib[bcrypt]
+mysqlclient
+# pydantic an email_validator are often useful with fastapi and pydantic
+pydantic[email]
+email-validator
